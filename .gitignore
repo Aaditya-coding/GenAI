@@ -1,0 +1,42 @@
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Chroma / vector databases
+# Uncomment this if my_chroma_db is generated data
+# my_chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
